@@ -10,7 +10,8 @@ The objective is to help their decision making process for credit granting. Afte
 ## Files
 
 * sql_dumps folder -> MySQL Dump Files to reconstruct the database.
-* data.csv
+* SQL data treatment.sql -> SQL commands to treat database data and create a unified information table. (Uncomment "DELETE" lines if you wish to perform a null/empty cleaning inside the database. In this implementation, this step was left for treatment using python).
+* dados_unificados.csv -> Output of the SQL data treatment.sql file, exported to .csv. 
 
 ## Steps
 
