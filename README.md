@@ -1,4 +1,4 @@
-# Default Forecasting Classification Model for Fintech
+# Defaulting Client Classification Model for Fintech
 *Marcos Oliveira (mvoassis@gmail.com)*
 
 ## Description
