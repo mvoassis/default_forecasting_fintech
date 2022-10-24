@@ -42,17 +42,15 @@ The .csv exported file was loaded, initially treated and analysed through an EDA
 Among the loaded information, the following verifications and adjustments were performed: 
 
 * Checking for NULL values within the columns: 
-1. Check the amount of null values of each feature
-2. Check each quantitative feature's distribution
-3. Check if it is possible to fill null values
-4. Drop lines with null information when it is not possible to fill.
-
+  1. Check the amount of null values of each feature
+  2. Check each quantitative feature's distribution
+  3. Check if it is possible to fill null values
+  4. Drop lines with null information when it is not possible to fill.
 * Checking Target Column - To define wether the data is balanced or not. 
 * Checking for data Outliers
-1. Boxplot of quantitative features
-2. Individual Analysis
-3. Plot boxplot again for comparison
-
+  1. Boxplot of quantitative features
+  2. Individual Analysis
+  3. Plot boxplot again for comparison
 * Treatment of Categorical data - Applying one-hot encoding on the categorical data features.
 * Correlation Analysis
   1. Evaluate correlation between features and target
