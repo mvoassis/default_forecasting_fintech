@@ -14,7 +14,7 @@ The objective is to help their decision making process for credit granting. Afte
 * [Exploratory Data Analysis - EDA (Notebook)](https://github.com/mvoassis/default_forecasting_fintech/blob/main/notebooks/EDA_Fintech_Default_detection.ipynb).
 * [Classification Model Development (Notebook)](https://github.com/mvoassis/default_forecasting_fintech/blob/main/notebooks/Model_Fintech_Default_Classification.ipynb)
 * [Model API](https://github.com/mvoassis/default_forecasting_fintech/blob/main/Dafaulting_classifier_API.py)
-* [PowerBI Dashboard]()
+* [PowerBI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOWNkOWM2ZjctYTMxYS00MWUxLThlMjQtNmZkZjNlNWI3MWQ4IiwidCI6ImMzN2IzN2EzLWU5ZTItNDJmOS1iYzY3LTRiOWI3MzhlMWRmMCJ9)
 
 ## Files
 
@@ -25,7 +25,8 @@ The objective is to help their decision making process for credit granting. Afte
 * clean_data_{13f, full}.csv -> Preprocessed data, ready for usage by the classification model (13f - 13 features, full - all features). The number of features is discussed in the EDA notebook (notebooks/EDA_Fintech_Default_detection.ipynb ) 
 * notebooks/EDA_Fintech_Default_detection.ipynb - Exploratory data analysis and data preparation notebook (Google Colab)
 * notebooks/Model_Fintech_Default_Classification.ipynb - Adjustment of data and testing environments, as well as the proposition of a classification model for detecting defaulting clients.
-* Dafaulting_classifier_API.py - 
+* Dafaulting_classifier_API.py - Python file where the proposed model is implemented as an API using FastAPI and uvicorn.
+* Results_Dashboard.pbix - Power BI project implementing the project's resulting dashboard.
 
 ## Steps
 
@@ -122,6 +123,7 @@ At the second part (Dataset visualizations), it is possibile to overview some ch
   * Defaulting status per loan objective;
   * Defaulting status per age.
 
-The file of the project is available at ***XXXXXXXXXXXXX***
+The file of the project is available at [Results_Dashboard.pbix](https://github.com/mvoassis/default_forecasting_fintech/blob/main/Results_Dashboard.pbix)
 
-The Dashboard was published online, and is available at ***XXXXXXXXXXXXX***
+The Dashboard was published online, and is available [here](https://app.powerbi.com/view?r=eyJrIjoiOWNkOWM2ZjctYTMxYS00MWUxLThlMjQtNmZkZjNlNWI3MWQ4IiwidCI6ImMzN2IzN2EzLWU5ZTItNDJmOS1iYzY3LTRiOWI3MzhlMWRmMCJ9)
+  > It is not possible to change the input data, since the classification model API was locally implemented. However, it is possible to interact with the remaining dashboard information.
