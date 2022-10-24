@@ -89,6 +89,29 @@ Different steps ere performed towards the implementation of the proposed method,
   * By comparing the optimized Voting method with the initial one, it was possible to verify a performance improvement in all tested metrics (ROC Curve, Confusion Matrix and Classification metrics).
 * ***Methods' saving*** - The methods were saved using pickle for future API implementation. 
 
+### 4 - API implementation
+
+The proposed classification method (voting) for defaulting clients, as well as the one-hot-encoding and standard scaling processes, were saved in pickle files.
+
+Theses files were used to implement a API using ***Python***, ***FastAPI*** and ***uvicorn***. The code is available at ***XXXXXXXXX***.
+
+> The API was locally implemented. 
 
 
+### 5 - PowerBI Visualization (Dashboard)
 
+Finally, I've developed a PowerBI Dashboard for visualizing the results of the project. It is linked to the developed REST API to enable dinamic client's evaluation through the input variables (features). 
+
+The Dashboard is divided into 2 parts:
+  1. Client Status (defaulting or non-defaulting client) and Defaulting probability (accordingly to the proposed method).
+  2. Dataset visualizations
+
+At the second part (Dataset visualizations), it is possibile to overview some characteristics of the dataset used in this project, such as:
+  * Dafaulting status per credit class;
+  * Defaulting status per Home ownership status;
+  * Defaulting status per loan objective;
+  * Defaulting status per age.
+
+The file of the project is available at ***XXXXXXXXXXXXX***
+
+The Dashboard was published online, and is available at ***XXXXXXXXXXXXX***
