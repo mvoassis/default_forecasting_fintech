@@ -19,7 +19,7 @@ The objective is to help their decision making process for credit granting. Afte
 
 ## Steps
 
-### SQL data treatment
+### 1 - SQL data treatment
 
 The data were made available in SQL dump format, in a dataset composed of 4 tables (dumps available at the sql_dumps folder):
 
@@ -31,8 +31,32 @@ The data were made available in SQL dump format, in a dataset composed of 4 tabl
 Data were initially treated by:
 
 1. Removing registries with null ids;
-2. Generating a single table relating all data available. 
+2. Generating a single table relating all data available. (SQL data treatment.sql )
 3. Exporting the resulting table to .csv format for further analysis using Python (dados_unificados.csv)
 
 
-### Extensive Data Analysis (EDA)
+### 2 - Exploratory Data Analysis (EDA)
+
+The .csv exported file was loaded, initially treated and analysed through an EDA available at "notebooks/EDA_Fintech_Default_detection.ipynb".
+
+Among the loaded information, the following verifications and adjustments were performed: 
+
+* Checking for NULL values within the columns: 
+1. Check the amount of null values of each feature
+2. Check each quantitative feature's distribution
+3. Check if it is possible to fill null values
+4. Drop lines with null information when it is not possible to fill.
+
+* Checking Target Column - To define wether the data is balanced or not. 
+* Checking for data Outliers
+1. Boxplot of quantitative features
+2. Individual Analysis
+3. Plot boxplot again for comparison
+
+* Treatment of Categorical data - Applying one-hot encoding on the categorical data features.
+* Correlation Analysis
+1. Evaluate correlation between features and target
+2. Evaluate correlation between dependent variables
+
+
+
