@@ -55,8 +55,8 @@ Among the loaded information, the following verifications and adjustments were p
 
 * Treatment of Categorical data - Applying one-hot encoding on the categorical data features.
 * Correlation Analysis
-1. Evaluate correlation between features and target
-2. Evaluate correlation between dependent variables
+  1. Evaluate correlation between features and target
+  2. Evaluate correlation between dependent variables
 
 
 
