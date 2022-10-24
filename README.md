@@ -66,28 +66,28 @@ The detection approach was tested with the two .csv files generated in the previ
 
 Different steps ere performed towards the implementation of the proposed method, which was:
 
-* Separating a validation dataset - Before starting the classification model, first the data should be balanced, normalized, and divided into Training, Testing and Validation sets. The validation set should be saved before the balancing process, which should be applied only on the training data.
-* Balancing training data - Three approaches could be tested for data balancing:
+* ***Separating a validation dataset*** - Before starting the classification model, first the data should be balanced, normalized, and divided into Training, Testing and Validation sets. The validation set should be saved before the balancing process, which should be applied only on the training data.
+* ***Balancing training data*** - Three approaches could be tested for data balancing:
   1. Upsampling - Resampling minority class, replicating rows to the size of the majoroty class. (Could lead to overfit)
   2. Downsampling - Resampling majoroty class, replicating rows to the size of the minority class. (Could lead to underfit)
   3. Hybrid approach - A mixture of approaches 1 and 2.
-  * As upsampling achieved better classification outcomes, it was the chosen approach for the proposed method. 
-* Normalizing data - To improve the performance of ML methods, I've normalized the data using Standard Scaler.
-* Train / Test Split - Sepparated data into train and test sets in a shuffled, stratified way. 30% of this data were saved for testing (part of the initial dataset is already saved for validation).
-* Models implementation and testing - 6 different methods were evaluated regarding the efficiency on correctly classifying defaulting clients, which were:
+  > As upsampling achieved better classification outcomes, it was the chosen approach for the proposed method. 
+* ***Normalizing data*** - To improve the performance of ML methods, I've normalized the data using Standard Scaler.
+* ***Train / Test Split*** - Sepparated data into train and test sets in a shuffled, stratified way. 30% of this data were saved for testing (part of the initial dataset is already saved for validation).
+* ***Models' implementation and testing*** - 6 different methods were evaluated regarding the efficiency on correctly classifying defaulting clients, which were:
   1. Decision Tree (DT)
   2. Random Forest (RF)
   3. Deep Neural Network (DNN)
   4. Hist Gradient Boosting (HGB)
   5. Bagging Classification
   6. Voting Classification (RF+HGB+Bagging)
-  * After the training process, the methods were tested with ROC Curve, Confusion Matrix and classification metrics (accuracy, precision, recall, f-score).
-* Evaluating methods with validation Data - Finally, the trained methods were applied to the validation dataset.
+  > After the training process, the methods were tested with ROC Curve, Confusion Matrix and classification metrics (accuracy, precision, recall, f-score).
+* ***Evaluating methods with validation Data*** - Finally, the trained methods were applied to the validation dataset.
   * Voting Classification achieved the best outcomes, in the average. 
   * However, as it uses the classification of 3 other methods, it were slower than all the other methods.
-* Hyperparameter Optimization - Since Voting method achieved the better outcomes, I've applied a Randomized Search to improve the results of RF, HGB, and Bagging methods even more.
+* ***Hyperparameter Optimization*** - Since Voting method achieved the better outcomes, I've applied a Randomized Search to improve the results of RF, HGB, and Bagging methods even more.
   * By comparing the optimized Voting method with the initial one, it was possible to verify a performance improvement in all tested metrics (ROC Curve, Confusion Matrix and Classification metrics).
-* Methods saving - The methods were saved using pickle for future API implementation. 
+* ***Methods' saving*** - The methods were saved using pickle for future API implementation. 
 
 
 
