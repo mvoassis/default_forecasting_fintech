@@ -12,8 +12,8 @@ The objective is to help their decision making process for credit granting. Afte
 ## Quick Access
 
 * [Exploratory Data Analysis - EDA (Notebook)](https://github.com/mvoassis/default_forecasting_fintech/blob/main/notebooks/EDA_Fintech_Default_detection.ipynb).
-* [Model development (Notebook)](https://github.com/mvoassis/default_forecasting_fintech/blob/main/notebooks/Model_Fintech_Default_Classification.ipynb)
-* [Model API]()
+* [Classification Model Development (Notebook)](https://github.com/mvoassis/default_forecasting_fintech/blob/main/notebooks/Model_Fintech_Default_Classification.ipynb)
+* [Model API](https://github.com/mvoassis/default_forecasting_fintech/blob/main/Dafaulting_classifier_API.py)
 * [PowerBI Dashboard]()
 
 ## Files
@@ -25,6 +25,7 @@ The objective is to help their decision making process for credit granting. Afte
 * clean_data_{13f, full}.csv -> Preprocessed data, ready for usage by the classification model (13f - 13 features, full - all features). The number of features is discussed in the EDA notebook (notebooks/EDA_Fintech_Default_detection.ipynb ) 
 * notebooks/EDA_Fintech_Default_detection.ipynb - Exploratory data analysis and data preparation notebook (Google Colab)
 * notebooks/Model_Fintech_Default_Classification.ipynb - Adjustment of data and testing environments, as well as the proposition of a classification model for detecting defaulting clients.
+* Dafaulting_classifier_API.py - 
 
 ## Steps
 
@@ -102,7 +103,7 @@ Different steps ere performed towards the implementation of the proposed method,
 
 The proposed classification method (voting) for defaulting clients, as well as the one-hot-encoding and standard scaling processes, were saved in pickle files.
 
-Theses files were used to implement a API using ***Python***, ***FastAPI*** and ***uvicorn***. The code is available at ***XXXXXXXXX***.
+Theses files were used to implement a API using ***Python***, ***FastAPI*** and ***uvicorn***. The code is available at [Dafaulting_classifier_API.py](https://github.com/mvoassis/default_forecasting_fintech/blob/main/Dafaulting_classifier_API.py)
 
 > The API was locally implemented. 
 
