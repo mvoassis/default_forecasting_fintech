@@ -7,13 +7,13 @@ This project is part of Alura Challenges, where a set of analysis and Machine Le
 
 The objective is to help their decision-making process for credit granting. After a meeting with the company's staff, they delivered a database with client and loan information, which should be analyzed, treated, and used to generate a classification model to identify potential defaulting clients. 
 
-> Project developed using: MySQL, Python, Jupyter notebook (Google Colab), Pandas, Scikit Learn, Numpy, Matplotlib, Seaborn, FastAPI, Uvicorn, and PowerBI. 
+> Project developed using: MySQL, Python, Jupyter notebook (Google Colab), Pandas, Scikit Learn, Numpy, Matplotlib, Seaborn, FastAPI, Uvicorn, PowerBI, Docker, and Google Cloud Platform (GCP). 
 
 ## Quick Access
 
 * [Exploratory Data Analysis - EDA (Notebook)](https://github.com/mvoassis/default_forecasting_fintech/blob/main/notebooks/EDA_Fintech_Default_detection.ipynb).
 * [Classification Model Development (Notebook)](https://github.com/mvoassis/default_forecasting_fintech/blob/main/notebooks/Model_Fintech_Default_Classification.ipynb)
-* [Model API](https://github.com/mvoassis/default_forecasting_fintech/blob/main/Dafaulting_classifier_API.py)
+* [Model API file](https://github.com/mvoassis/default_forecasting_fintech/blob/main/Dafaulting_classifier_API.py)
 * [PowerBI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOWNkOWM2ZjctYTMxYS00MWUxLThlMjQtNmZkZjNlNWI3MWQ4IiwidCI6ImMzN2IzN2EzLWU5ZTItNDJmOS1iYzY3LTRiOWI3MzhlMWRmMCJ9)
 
 ## Files
