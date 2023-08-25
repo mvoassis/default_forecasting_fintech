@@ -7,14 +7,15 @@ This project is part of Alura Challenges, where a set of analysis and Machine Le
 
 The objective is to help their decision-making process for credit granting. After a meeting with the company's staff, they delivered a database with client and loan information, which should be analyzed, treated, and used to generate a classification model to identify potential defaulting clients. 
 
-> Project developed using: MySQL, Python, Jupyter notebook (Google Colab), Pandas, Scikit Learn, Numpy, Matplotlib, Seaborn, FastAPI, Uvicorn, and PowerBI. 
+> Project developed using: MySQL, Python, Jupyter notebook (Google Colab), Pandas, Scikit Learn, Numpy, Matplotlib, Seaborn, FastAPI, Uvicorn, PowerBI, Docker, and Google Cloud Platform (GCP). 
 
 ## Quick Access
 
 * [Exploratory Data Analysis - EDA (Notebook)](https://github.com/mvoassis/default_forecasting_fintech/blob/main/notebooks/EDA_Fintech_Default_detection.ipynb).
 * [Classification Model Development (Notebook)](https://github.com/mvoassis/default_forecasting_fintech/blob/main/notebooks/Model_Fintech_Default_Classification.ipynb)
-* [Model API](https://github.com/mvoassis/default_forecasting_fintech/blob/main/Dafaulting_classifier_API.py)
+* [Model API file](https://github.com/mvoassis/default_forecasting_fintech/blob/main/Dafaulting_classifier_API.py)
 * [PowerBI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOWNkOWM2ZjctYTMxYS00MWUxLThlMjQtNmZkZjNlNWI3MWQ4IiwidCI6ImMzN2IzN2EzLWU5ZTItNDJmOS1iYzY3LTRiOWI3MzhlMWRmMCJ9)
+* [Test the API - Simple WEB app calling GCP](https://people.ufpr.br/~marcos.assis/def_client_api.html) ***
 
 ## Files
 
@@ -126,4 +127,4 @@ In the second part (Dataset visualizations), it is possible to overview some cha
 The file of the project is available at [Results_Dashboard.pbix](https://github.com/mvoassis/default_forecasting_fintech/blob/main/Results_Dashboard.pbix)
 
 The Dashboard was published online and is available [here](https://app.powerbi.com/view?r=eyJrIjoiOWNkOWM2ZjctYTMxYS00MWUxLThlMjQtNmZkZjNlNWI3MWQ4IiwidCI6ImMzN2IzN2EzLWU5ZTItNDJmOS1iYzY3LTRiOWI3MzhlMWRmMCJ9)
-  > It is not possible to change the input data since the classification model API was locally implemented. However, it is possible to interact with the remaining dashboard information.
+<!-- > It is not possible to change the input data since the classification model API was locally implemented. However, it is possible to interact with the remaining dashboard information. -->
