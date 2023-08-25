@@ -15,6 +15,7 @@ The objective is to help their decision-making process for credit granting. Afte
 * [Classification Model Development (Notebook)](https://github.com/mvoassis/default_forecasting_fintech/blob/main/notebooks/Model_Fintech_Default_Classification.ipynb)
 * [Model API file](https://github.com/mvoassis/default_forecasting_fintech/blob/main/Dafaulting_classifier_API.py)
 * [PowerBI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOWNkOWM2ZjctYTMxYS00MWUxLThlMjQtNmZkZjNlNWI3MWQ4IiwidCI6ImMzN2IzN2EzLWU5ZTItNDJmOS1iYzY3LTRiOWI3MzhlMWRmMCJ9)
+* [Test the API - Simple WEB app calling GCP](https://people.ufpr.br/~marcos.assis/def_client_api.html)
 
 ## Files
 
