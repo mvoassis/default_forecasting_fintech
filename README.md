@@ -127,4 +127,4 @@ In the second part (Dataset visualizations), it is possible to overview some cha
 The file of the project is available at [Results_Dashboard.pbix](https://github.com/mvoassis/default_forecasting_fintech/blob/main/Results_Dashboard.pbix)
 
 The Dashboard was published online and is available [here](https://app.powerbi.com/view?r=eyJrIjoiOWNkOWM2ZjctYTMxYS00MWUxLThlMjQtNmZkZjNlNWI3MWQ4IiwidCI6ImMzN2IzN2EzLWU5ZTItNDJmOS1iYzY3LTRiOWI3MzhlMWRmMCJ9)
-  > It is not possible to change the input data since the classification model API was locally implemented. However, it is possible to interact with the remaining dashboard information.
+//  > It is not possible to change the input data since the classification model API was locally implemented. However, it is possible to interact with the remaining dashboard information.
